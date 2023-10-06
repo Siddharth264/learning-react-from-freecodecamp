@@ -1,0 +1,47 @@
+.App{
+  height: 100vh;
+}
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #21222A;
+}
+
+.nav-logo-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: aqua;
+}
+
+.nav-desc{
+  padding-right: 25px;
+  color: aqua;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #282D35;
+  height: 100%;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.main-heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  padding: 15px;
+  
+}
+
+.main-content{
+  font-size: 1.1rem;
+}
+
+.main-content li{
+  padding: 10px;
+}

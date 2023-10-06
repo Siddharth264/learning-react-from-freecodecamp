@@ -1,0 +1,110 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-container{
+    background-color: white;
+    height: 70px;
+}
+
+.navbar-logo{
+    padding: 20px 36px;
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.gridImage{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 28px;
+}
+.experiences-cont{
+    padding: 20px 36px;
+
+}
+.experience{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.exp-text{
+    padding-top: 10px;
+    max-width: 325px;
+    height: 56px;
+    color: #222;
+    
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17.6px;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 36px;
+    width: 176px;
+}
+
+.cardImg > img {
+    width: 176px;
+    height: 235px;
+}
+
+.cardReviews{
+    font-size: 12px;
+}
+
+.cardStar {
+    width: 10px;
+    padding-right: 5px;
+}
+
+.cardEl{
+    padding-bottom: 3px;
+    width: 2px;
+}
+
+.cardReviews>span{
+    color: #918E9B;
+    padding: 1.5px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 300;
+}
+.cardDetails{
+    padding-top: 8px;
+}
+
+.desc{
+    color: #222;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%; /* 13.2px */
+}
+
+.boldtext{
+    color: #222;
+    position: relative;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 13.2px */
+
+}
+
+.simpletext{
+    color: #222;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+}
