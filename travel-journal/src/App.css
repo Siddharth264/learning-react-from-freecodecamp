@@ -1,0 +1,91 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    height: 55px;
+    font-family: Inter;
+    font-size: 16px;
+    color: aliceblue;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header > img{
+    padding: 5px 10px;
+}
+
+.card-container{
+    display: flex;
+    margin: 45px 40px 30px;
+}
+
+.imgDetails-container{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 20px;
+    justify-content: space-between;
+}
+
+.img-location{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-location > img{
+    padding: 0px 5px;
+    width: 7px;
+    height: 15px;
+}
+
+.img-location :nth-child(2){
+    color: #2B283A;
+    padding: 0px 10px;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    letter-spacing: 1.741px;
+    
+}
+
+.img-location :nth-child(3){
+    padding: 0px 10px;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #918E9B;
+}
+
+.img-header{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    color: #2B283A;
+    padding-bottom: 8px;
+}
+.travel-dates{
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+.desc-container{
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.line-container{
+    width: 95%;
+    background: #F5F5F5;
+    height: 2px;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+
