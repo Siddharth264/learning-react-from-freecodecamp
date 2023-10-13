@@ -3,7 +3,11 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
 export default function Form() {
+  
+
   return (
+    
+
     <div className="form-container">
       <div className="box-container">
       <Box
@@ -14,7 +18,7 @@ export default function Form() {
         noValidate
         autoComplete="off"
       >
-        <TextField id="outlined-basic" variant="outlined" />
+        <TextField className="form-input" id="outlined-basic" variant="outlined" placeholder="Top-text"/>
       </Box>
 
       <Box
@@ -25,7 +29,7 @@ export default function Form() {
         noValidate
         autoComplete="off"
       >
-        <TextField id="outlined-basic" variant="outlined" />
+        <TextField className="form-input" id="outlined-basic" variant="outlined" placeholder="Bottom text"/>
       </Box>
       </div>
 

@@ -1,8 +1,16 @@
-import Memeimg from "../assets/memeimg.png";
+import Memes from "../assets/memesData"
+
 const Meme = () => {
+  function getRandomMeme() {
+    // write code here
+    const randomIndex = Math.floor(Math.random() *100)
+    console.log(Memes.data.memes[randomIndex].name)
+    return Memes.data.memes[randomIndex].url
+  }
+  const url = getRandomMeme();
   return (
     <div className="meme-container">
-      <img src={Memeimg} alt="" />
+      <img src={url} alt="" />
       <div className="text1">
         <span>Shut Up</span>
       </div>
